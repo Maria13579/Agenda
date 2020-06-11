@@ -55,6 +55,7 @@ namespace Agenda
                             {       
                                 Console.WriteLine(agenda[0, f] + "    " + agenda[1, f] + "    " + agenda[2, f] + "    " + agenda[3, f]);
                             }
+                            Console.WriteLine("------------------------------------------------------------------");
                             
                         }
                         if (opc == 3)
@@ -75,7 +76,8 @@ namespace Agenda
                             }
                             Console.WriteLine("Datos del contacto buscado: ");
                             Console.WriteLine(usuario);
-                            
+                            Console.WriteLine("____________________________________________________");
+                            Console.WriteLine("\n\n");
                         }
                      
                     }
