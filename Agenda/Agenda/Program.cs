@@ -17,9 +17,8 @@ namespace Agenda
             string buscar = "";
             string buscar2 = "";
             int opc=0;
-            int op = 0;
             while (opc<4)
-            {
+            { 
                 Console.WriteLine("--------- Menú de Opciones ---------");
                 Console.WriteLine("1. Ingresar contactos");
                 Console.WriteLine("2. Mostrar contactos");
